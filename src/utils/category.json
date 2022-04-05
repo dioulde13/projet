@@ -1,0 +1,15 @@
+{
+    "categories":[
+        {
+            "Professionnelle": ["IT", "Communications", "Economy"]
+        },
+        {
+            "Pre_Universitaire": ["Lycee", "College", "Primaire"]
+        },
+        {
+            "Non_Professionnelle": ["Sport", "Cuisine"]
+        }
+    ]
+}
+
+"Professionnelle": ["IT", "Communications", "Economy"]

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1649149703083,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1649149703083,
+            "name": "Commit-0",
+            "content": "\nimport 'react-app-polyfill/ie11';\nimport 'react-perfect-scrollbar/dist/css/styles.css';\nimport 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';\nimport 'react-quill/dist/quill.snow.css';\nimport 'prismjs/prism';\nimport 'prismjs/components/prism-bash';\nimport 'prismjs/components/prism-javascript';\nimport 'prismjs/components/prism-jsx';\nimport 'nprogress/nprogress.css';\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport { Provider } from 'react-redux';\nimport './index.css';\nimport App from './App';\nimport store from \"./store\";\nimport reportWebVitals from './reportWebVitals';\n\nReactDOM.render(\n  <Provider store={store}>\n    <App />\n    </Provider>,\n  document.getElementById('root')\n);\n\n// If you want to start measuring performance in your app, pass a function\n// to log results (for example: reportWebVitals(console.log))\n// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals\nreportWebVitals();"
+        }
+    ]
+}

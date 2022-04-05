@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/App.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1649149705867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1649149705867,
+            "name": "Commit-0",
+            "content": "import React from \"react\";\nimport { BrowserRouter as Router } from \"react-router-dom\";\nimport { create } from \"jss\";\nimport rtl from \"jss-rtl\";\nimport { SnackbarProvider } from \"notistack\";\nimport { MuiPickersUtilsProvider } from '@material-ui/pickers';\nimport MomentUtils from '@date-io/moment';\nimport { createBrowserHistory } from \"history\";\nimport { jssPreset, StylesProvider, ThemeProvider } from \"@material-ui/core\";\nimport useSettings from './hooks/useSettings';\nimport { createTheme } from './theme';\nimport GlobalStyles from \"./components/GlobalStyles\";\nimport ScrollReset from './components/ScrollReset';\nimport routes, { renderRoutes } from './routes';\n\n\n\nconst jss = create({ plugins: [...jssPreset().plugins, rtl()] });\nconst history = createBrowserHistory();\n\nfunction App() {\n  const { settings } = useSettings();\n\n  const theme = createTheme({\n    direction: settings.direction,\n    responsiveFontSizes: settings.responsiveFontSizes,\n    theme: settings.theme\n  });\n\n  return (\n    <ThemeProvider theme={theme} >\n      <StylesProvider jss={jss}>\n      <MuiPickersUtilsProvider utils={MomentUtils}>\n        <SnackbarProvider dense maxSnack={3}>\n          <Router history={history}>\n            <GlobalStyles />\n            <ScrollReset />\n            {renderRoutes(routes)}\n            \n          </Router>\n        </SnackbarProvider>\n        </MuiPickersUtilsProvider>\n      </StylesProvider>\n    </ThemeProvider>\n  );\n}\nexport default App;"
+        }
+    ]
+}

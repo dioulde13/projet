@@ -1,0 +1,30 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1649149495573,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1649150616915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,8 +12,11 @@\n     \"@testing-library/jest-dom\": \"^5.16.3\",\n     \"@testing-library/react\": \"^12.1.4\",\n     \"@testing-library/user-event\": \"^13.5.0\",\n     \"nprogress\": \"^0.2.0\",\n+    \"prismjs\": \"^1.26.0\",\n+    \"react\": \"^18.0.0\",\n+    \"react-dom\": \"^18.0.0\",\n     \"react-draft-wysiwyg\": \"^1.14.7\",\n     \"react-helmet\": \"^6.1.0\",\n     \"react-icons\": \"^4.3.1\",\n     \"react-input-mask\": \"^2.0.4\",\n@@ -22,16 +25,14 @@\n     \"react-phone-number-input\": \"^3.1.49\",\n     \"react-quill\": \"^1.3.5\",\n     \"react-redux\": \"^7.2.6\",\n     \"react-router-dom\": \"^5.2.0\",\n-    \"prismjs\": \"^1.26.0\",\n-    \"react\": \"^17.0.2\",\n-    \"react-dom\": \"^18.0.0\",\n     \"react-scripts\": \"5.0.0\",\n     \"redux-devtools-extension\": \"^2.13.9\",\n     \"redux-thunk\": \"^2.4.1\",\n     \"styled-components\": \"^5.3.3\",\n-    \"web-vitals\": \"^2.1.4\"\n+    \"web-vitals\": \"^2.1.4\",\n+    \"yup\": \"^0.32.11\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n     \"build\": \"react-scripts build\",\n"
+                },
+                {
+                    "date": 1649150665302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n     \"@testing-library/react\": \"^12.1.4\",\n     \"@testing-library/user-event\": \"^13.5.0\",\n     \"nprogress\": \"^0.2.0\",\n     \"prismjs\": \"^1.26.0\",\n-    \"react\": \"^18.0.0\",\n+    \"react\": \"^17.0.2\",\n     \"react-dom\": \"^18.0.0\",\n     \"react-draft-wysiwyg\": \"^1.14.7\",\n     \"react-helmet\": \"^6.1.0\",\n     \"react-icons\": \"^4.3.1\",\n"
+                },
+                {
+                    "date": 1649150965040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,15 +8,10 @@\n     \"@emotion/styled\": \"^11.6.0\",\n     \"@material-ui/icons\": \"^4.11.2\",\n     \"@material-ui/lab\": \"^4.0.0-alpha.60\",\n     \"@mui/material\": \"^5.4.1\",\n-    \"@testing-library/jest-dom\": \"^5.16.3\",\n-    \"@testing-library/react\": \"^12.1.4\",\n-    \"@testing-library/user-event\": \"^13.5.0\",\n     \"nprogress\": \"^0.2.0\",\n     \"prismjs\": \"^1.26.0\",\n-    \"react\": \"^17.0.2\",\n-    \"react-dom\": \"^18.0.0\",\n     \"react-draft-wysiwyg\": \"^1.14.7\",\n     \"react-helmet\": \"^6.1.0\",\n     \"react-icons\": \"^4.3.1\",\n     \"react-input-mask\": \"^2.0.4\",\n@@ -25,14 +20,19 @@\n     \"react-phone-number-input\": \"^3.1.49\",\n     \"react-quill\": \"^1.3.5\",\n     \"react-redux\": \"^7.2.6\",\n     \"react-router-dom\": \"^5.2.0\",\n-    \"react-scripts\": \"5.0.0\",\n     \"redux-devtools-extension\": \"^2.13.9\",\n     \"redux-thunk\": \"^2.4.1\",\n     \"styled-components\": \"^5.3.3\",\n-    \"web-vitals\": \"^2.1.4\",\n-    \"yup\": \"^0.32.11\"\n+    \"yup\": \"^0.32.11\",\n+    \"@testing-library/jest-dom\": \"^5.16.3\",\n+    \"@testing-library/react\": \"^12.1.4\",\n+    \"@testing-library/user-event\": \"^13.5.0\",\n+    \"react\": \"^18.0.0\",\n+    \"react-dom\": \"^18.0.0\",\n+    \"react-scripts\": \"5.0.0\",\n+    \"web-vitals\": \"^2.1.4\"\n   },\n   \"scripts\": {\n     \"start\": \"react-scripts start\",\n     \"build\": \"react-scripts build\",\n"
+                }
+            ],
+            "date": 1649149495573,
+            "name": "Commit-0",
+            "content": "{\n  \"name\": \"mon-app\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"@date-io/moment\": \"^2.13.1\",\n    \"@emotion/react\": \"^11.7.1\",\n    \"@emotion/styled\": \"^11.6.0\",\n    \"@material-ui/icons\": \"^4.11.2\",\n    \"@material-ui/lab\": \"^4.0.0-alpha.60\",\n    \"@mui/material\": \"^5.4.1\",\n    \"@testing-library/jest-dom\": \"^5.16.3\",\n    \"@testing-library/react\": \"^12.1.4\",\n    \"@testing-library/user-event\": \"^13.5.0\",\n    \"nprogress\": \"^0.2.0\",\n    \"react-draft-wysiwyg\": \"^1.14.7\",\n    \"react-helmet\": \"^6.1.0\",\n    \"react-icons\": \"^4.3.1\",\n    \"react-input-mask\": \"^2.0.4\",\n    \"react-number-format\": \"^4.9.1\",\n    \"react-perfect-scrollbar\": \"^1.5.8\",\n    \"react-phone-number-input\": \"^3.1.49\",\n    \"react-quill\": \"^1.3.5\",\n    \"react-redux\": \"^7.2.6\",\n    \"react-router-dom\": \"^5.2.0\",\n    \"prismjs\": \"^1.26.0\",\n    \"react\": \"^17.0.2\",\n    \"react-dom\": \"^18.0.0\",\n    \"react-scripts\": \"5.0.0\",\n    \"redux-devtools-extension\": \"^2.13.9\",\n    \"redux-thunk\": \"^2.4.1\",\n    \"styled-components\": \"^5.3.3\",\n    \"web-vitals\": \"^2.1.4\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\"\n  },\n  \"eslintConfig\": {\n    \"extends\": [\n      \"react-app\",\n      \"react-app/jest\"\n    ]\n  },\n  \"browserslist\": {\n    \"production\": [\n      \">0.2%\",\n      \"not dead\",\n      \"not op_mini all\"\n    ],\n    \"development\": [\n      \"last 1 chrome version\",\n      \"last 1 firefox version\",\n      \"last 1 safari version\"\n    ]\n  }\n}\n"
+        }
+    ]
+}

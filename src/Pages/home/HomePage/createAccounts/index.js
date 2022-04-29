@@ -62,22 +62,12 @@ const RegisterView = () => {
       title="S'enregistrer"
       content="Enregistrer sur la Plateforme Plaguifor"
     >
-      <Container
-        className={classes.cardContainer}
-        maxWidth="sm"
+      <Box
+        flexGrow={1}
+      // mt={3}
       >
-        <Card>
-          <CardContent className={classes.cardContent}>
-           
-            <Box
-              flexGrow={1}
-              // mt={3}
-            >
-              <CreateAccounts/>
-            </Box>  
-          </CardContent>
-        </Card>
-      </Container>
+        <CreateAccounts />
+      </Box>
     </Page>
   );
 };

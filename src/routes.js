@@ -49,9 +49,9 @@ const routes = [
       },
       {
         exact: true,
-        path: "/listeaccount",
+        path: "/searchuser",
         component: lazy(() =>
-          import("./Pages/home/HomePage/listeaccount")
+          import("./Pages/home/HomePage/searchuser")
         ),
       },
       {
@@ -61,26 +61,18 @@ const routes = [
           import("./Pages/home/HomePage/createAccounts")
         ),
       },
-      {
-        exact: true,
-        path: "/deleteuser",
-        component: lazy(() =>
-          import("./Pages/home/HomePage/deleteUser")
-        ),
-      },
-      {
-        exact: true,
-        path: "/searchuser",
-        component: lazy(() =>
-          import("./Pages/home/HomePage/searchUser")
-        ),
-      },
+     
       {
         exact: true,
         path: "/changeemail",
         component: lazy(() =>
           import("./Pages/home/HomePage/changeEmail")
         ),
+      },
+      {
+        exact: true,
+        path: "/account/profil",
+        component: lazy(() => import("./Pages/Account/General")),
       },
       {
         component: () => <Redirect to="/404" />,

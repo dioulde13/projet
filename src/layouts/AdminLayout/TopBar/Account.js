@@ -99,7 +99,7 @@ const Account = ({ logout }) => {
         >
           Profile
         </MenuItem> */}
-        <MenuItem component={RouterLink} onClick={handleClose} to="/dashboard/account">
+        <MenuItem component={RouterLink} onClick={handleClose} to="/account/profil">
           Account
         </MenuItem>
         <MenuItem onClick={handleLogout}>Logout</MenuItem>

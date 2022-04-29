@@ -40,24 +40,14 @@ const sections = [
     subheader: "Compte",
     items: [
       {
-        title: "Liste Accout",
-        href: "/listeaccount",
-        icon: UserPlusIcon,
+        title: "Search Accout",
+        href: "/searchuser",
+        icon: UserCheckIcon,
       },
       {
         title: "Create Accout",
         href: "/createaccount",
         icon: UserPlusIcon,
-      },
-      {
-        title: 'Delete Account',
-        href: '/deleteuser',
-        icon: UserMoinsIcon
-      },
-      {
-        title: "Search Accout",
-        href: "/searchuser",
-        icon: UserCheckIcon,
       },
       {
         title: "Change Email",
@@ -171,14 +161,14 @@ const NavBar = ({ onMobileClose, openMobile }) => {
       <PerfectScrollbar options={{ suppressScrollX: true }}>
         <Hidden lgUp>
           <Box p={2} display="flex" justifyContent="center" bgcolor="#210557">
-            <RouterLink to="/listeaccount">
+            <RouterLink to="/searchuser">
               <Logo />
             </RouterLink>
           </Box>
         </Hidden>
         <Box pt={4}>
           <Box display="flex" justifyContent="center">
-            <RouterLink to="/listeaccount">
+            <RouterLink to="/searchuser">
               <Avatar
                 alt="User"
                 className={classes.avatar}
